@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Word Add-in</title>
+    <link rel="stylesheet" href="taskpane.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="taskpane.js"></script>
+  </head>
+  <body>
+    <div>
+      <h1>Transform Text Tone</h1>
+      <label for="tone">Select Tone:</label>
+      <select id="tone">
+        <option value="professional">Professional</option>
+        <option value="casual">Casual</option>
+        <option value="friendly">Friendly</option>
+        <option value="informative">Informative</option>
+        <option value="persuasive">Persuasive</option>
+      </select>
+      <button id="run">Transform Text</button>
+    </div>
+  </body>
+</html>
