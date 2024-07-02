@@ -1,0 +1,19 @@
+# MyWordAddIn
+
+MyWordAddIn is a Microsoft Office Word add-in that leverages the OpenAI API to transform the tone of selected text into various styles such as professional, casual, friendly, informative, and persuasive. This add-in provides an easy-to-use interface to enhance your document's tone without leaving Word.
+
+## Features
+
+- **Tone Transformation**: Transform the tone of your selected text into different styles.
+- **Easy Integration**: Seamlessly integrates with Microsoft Word for a smooth user experience.
+- **Multiple Tones**: Supports various tones including professional, casual, friendly, informative, and persuasive.
+
+## Prerequisites
+
+- **Node.js** and **npm**: Install Node.js and npm from [nodejs.org](https://nodejs.org/).
+- **Yo Office**: Install the Yeoman generator for Office Add-ins.
+
+  ```bash
+  npm install -g yo generator-office
+
+
